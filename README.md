@@ -11,7 +11,7 @@
 
 ### 1. Generating gRPC Files
 
-Before running the Python scripts that utilize gRPC, you need to generate the gRPC Python files from the `.proto` files. Follow the steps below:
+Before running the Python scripts that utilize gRPC, you might want to regenerate the gRPC Python files from the `.proto` files. Follow the steps below:
 
 #### For Windows:
 
@@ -41,4 +41,4 @@ To fix the relative import paths in the generated gRPC Python files, you can use
 python fix_imports.py
 ```
 
-This script will update the import statements in the generated files to use absolute import paths based on the grpc_py directory.
+This script will update the import statements in the generated files to use relative import paths based on the grpc_py directory.
