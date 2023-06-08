@@ -1,5 +1,7 @@
 # grpc_py
 
+- The prebuilt files already contain fixed imports
+
 ## Requirements
 
 - Python 3.x
