@@ -12,9 +12,10 @@ _sym_db = _symbol_database.Default()
 
 
 from . import get_user_data_rpc_pb2 as get__user__data__rpc__pb2
+from . import get_nex_password_rpc_pb2 as get__nex__password__rpc__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x61\x63\x63ount_service.proto\x12\x07\x61\x63\x63ount\x1a\x17get_user_data_rpc.proto2U\n\x07\x41\x63\x63ount\x12J\n\x0bGetUserData\x12\x1b.account.GetUserDataRequest\x1a\x1c.account.GetUserDataResponse\"\x00\x42\x11Z\x0f./;grpc_accountb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x61\x63\x63ount_service.proto\x12\x07\x61\x63\x63ount\x1a\x17get_user_data_rpc.proto\x1a\x1aget_nex_password_rpc.proto2\xaa\x01\n\x07\x41\x63\x63ount\x12J\n\x0bGetUserData\x12\x1b.account.GetUserDataRequest\x1a\x1c.account.GetUserDataResponse\"\x00\x12S\n\x0eGetNEXPassword\x12\x1e.account.GetNEXPasswordRequest\x1a\x1f.account.GetNEXPasswordResponse\"\x00\x42\x11Z\x0f./;grpc_accountb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'account_service_pb2', globals())
@@ -22,6 +23,6 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   DESCRIPTOR._serialized_options = b'Z\017./;grpc_account'
-  _ACCOUNT._serialized_start=59
-  _ACCOUNT._serialized_end=144
+  _ACCOUNT._serialized_start=88
+  _ACCOUNT._serialized_end=258
 # @@protoc_insertion_point(module_scope)
